@@ -1,6 +1,7 @@
 import Details from '@/components/About/Details'
+import Mission from '@/components/About/Mission'
 import Title from '@/components/About/Title'
-import Mission from '@/components/About/mission'
+
 import React from 'react'
 
 function About() {

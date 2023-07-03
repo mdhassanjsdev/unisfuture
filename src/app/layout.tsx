@@ -1,9 +1,4 @@
-"use client"
-
 import './globals.css'
-
-import { usePathname } from 'next/navigation';
-
 
 import { Inter } from 'next/font/google'
 
@@ -11,7 +6,6 @@ import Navber from "@/components/Shared/Navber";
 import Topber from "@/components/Shared/Topber";
 import Footer from '@/components/Shared/Footer';
 
-import { useEffect } from 'react';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,9 +16,6 @@ export const metadata = {
 
 export default function RootLayout({ children }: any) {
 
-    const pathname = usePathname();
-
-    console.log(pathname)
 
     return (
         <html lang="en">
